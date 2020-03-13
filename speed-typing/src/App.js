@@ -30,7 +30,7 @@ function App() {
       <h1>Speed Typing</h1>
       <textarea value={text} onChange={handleChange} />
       <h4>Time Remaining: {timeRemaining}</h4>
-      <button onClick={setIsPlaying(true)}>START</button>
+      <button onClick={() => setIsPlaying(true)}>START</button>
       <h1>Words Typed: {words}</h1>
     </div>
   );
